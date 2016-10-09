@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D86E91528D9C14F674EDA88 /* Pods_SpeechSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42453E58BEB4616B0E8BAC02 /* Pods_SpeechSampleApp.framework */; };
+		43043302E273CADA9C7CEAD2 /* Pods_SpeechSampleAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C912BAB6197CCD2583328F /* Pods_SpeechSampleAppTests.framework */; };
+		69ECDC66BF744217DA9F95B5 /* Pods_SpeechSampleAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB7FFE1E9732A70DBCE5E0B /* Pods_SpeechSampleAppUITests.framework */; };
 		C79509E31D9B5DE400C53B7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79509E21D9B5DE400C53B7C /* AppDelegate.swift */; };
 		C79509E51D9B5DE400C53B7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79509E41D9B5DE400C53B7C /* ViewController.swift */; };
 		C79509E81D9B5DE400C53B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79509E61D9B5DE400C53B7C /* Main.storyboard */; };
@@ -15,6 +18,8 @@
 		C79509F01D9B5DE400C53B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79509EE1D9B5DE400C53B7C /* LaunchScreen.storyboard */; };
 		C79509FB1D9B5DE400C53B7C /* SpeechSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79509FA1D9B5DE400C53B7C /* SpeechSampleAppTests.swift */; };
 		C7950A061D9B5DE400C53B7C /* SpeechSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7950A051D9B5DE400C53B7C /* SpeechSampleAppUITests.swift */; };
+		C7DA17E51D9F390C005CB324 /* GifTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DA17E41D9F390C005CB324 /* GifTableViewCell.swift */; };
+		C7DA17E71D9F41BC005CB324 /* VoiceSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DA17E61D9F41BC005CB324 /* VoiceSearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42453E58BEB4616B0E8BAC02 /* Pods_SpeechSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C912BAB6197CCD2583328F /* Pods_SpeechSampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechSampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		605D761D66EA512CCD7FA906 /* Pods-SpeechSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeechSampleApp/Pods-SpeechSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		72EA75624972DDF4D7992280 /* Pods-SpeechSampleAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechSampleAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeechSampleAppUITests/Pods-SpeechSampleAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B1F6881CE60E5AE991BCE30 /* Pods-SpeechSampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechSampleAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeechSampleAppTests/Pods-SpeechSampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8273FBD7128170CD0EE8CC0D /* Pods-SpeechSampleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechSampleAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeechSampleAppUITests/Pods-SpeechSampleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A141DB7E7BEC4B6485F634AA /* Pods-SpeechSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeechSampleApp/Pods-SpeechSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A333FBD9031C331DC40EC282 /* Pods-SpeechSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechSampleAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeechSampleAppTests/Pods-SpeechSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADB7FFE1E9732A70DBCE5E0B /* Pods_SpeechSampleAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechSampleAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79509DF1D9B5DE400C53B7C /* SpeechSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79509E21D9B5DE400C53B7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C79509E41D9B5DE400C53B7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +63,9 @@
 		C7950A011D9B5DE400C53B7C /* SpeechSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7950A051D9B5DE400C53B7C /* SpeechSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSampleAppUITests.swift; sourceTree = "<group>"; };
 		C7950A071D9B5DE400C53B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DA17E31D9F3774005CB324 /* SpeechSampleApp-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeechSampleApp-BridgingHeader.h"; sourceTree = "<group>"; };
+		C7DA17E41D9F390C005CB324 /* GifTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifTableViewCell.swift; sourceTree = "<group>"; };
+		C7DA17E61D9F41BC005CB324 /* VoiceSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceSearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D86E91528D9C14F674EDA88 /* Pods_SpeechSampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43043302E273CADA9C7CEAD2 /* Pods_SpeechSampleAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69ECDC66BF744217DA9F95B5 /* Pods_SpeechSampleAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38F361ED3E0319C37D838405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42453E58BEB4616B0E8BAC02 /* Pods_SpeechSampleApp.framework */,
+				51C912BAB6197CCD2583328F /* Pods_SpeechSampleAppTests.framework */,
+				ADB7FFE1E9732A70DBCE5E0B /* Pods_SpeechSampleAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2412CF451D54FF1BDB59B2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A141DB7E7BEC4B6485F634AA /* Pods-SpeechSampleApp.debug.xcconfig */,
+				605D761D66EA512CCD7FA906 /* Pods-SpeechSampleApp.release.xcconfig */,
+				7B1F6881CE60E5AE991BCE30 /* Pods-SpeechSampleAppTests.debug.xcconfig */,
+				A333FBD9031C331DC40EC282 /* Pods-SpeechSampleAppTests.release.xcconfig */,
+				8273FBD7128170CD0EE8CC0D /* Pods-SpeechSampleAppUITests.debug.xcconfig */,
+				72EA75624972DDF4D7992280 /* Pods-SpeechSampleAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C79509D61D9B5DE400C53B7C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +126,8 @@
 				C79509F91D9B5DE400C53B7C /* SpeechSampleAppTests */,
 				C7950A041D9B5DE400C53B7C /* SpeechSampleAppUITests */,
 				C79509E01D9B5DE400C53B7C /* Products */,
+				C2412CF451D54FF1BDB59B2B /* Pods */,
+				38F361ED3E0319C37D838405 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +151,9 @@
 				C79509EE1D9B5DE400C53B7C /* LaunchScreen.storyboard */,
 				C79509F11D9B5DE400C53B7C /* Info.plist */,
 				C79509E91D9B5DE400C53B7C /* SpeechSampleApp.xcdatamodeld */,
+				C7DA17E31D9F3774005CB324 /* SpeechSampleApp-BridgingHeader.h */,
+				C7DA17E41D9F390C005CB324 /* GifTableViewCell.swift */,
+				C7DA17E61D9F41BC005CB324 /* VoiceSearchViewController.swift */,
 			);
 			path = SpeechSampleApp;
 			sourceTree = "<group>";
@@ -135,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7950A0A1D9B5DE400C53B7C /* Build configuration list for PBXNativeTarget "SpeechSampleApp" */;
 			buildPhases = (
+				3135C6C74501981BA75E3BFA /* [CP] Check Pods Manifest.lock */,
 				C79509DB1D9B5DE400C53B7C /* Sources */,
 				C79509DC1D9B5DE400C53B7C /* Frameworks */,
 				C79509DD1D9B5DE400C53B7C /* Resources */,
+				3D446383AACF130BD86C13A2 /* [CP] Embed Pods Frameworks */,
+				8A048DC9229492E6918073EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7950A0D1D9B5DE400C53B7C /* Build configuration list for PBXNativeTarget "SpeechSampleAppTests" */;
 			buildPhases = (
+				9DF2AA6369F0D14FAAB419AE /* [CP] Check Pods Manifest.lock */,
 				C79509F21D9B5DE400C53B7C /* Sources */,
 				C79509F31D9B5DE400C53B7C /* Frameworks */,
 				C79509F41D9B5DE400C53B7C /* Resources */,
+				8898257740D972BE1A26A136 /* [CP] Embed Pods Frameworks */,
+				FBF8B413AF5EBF40914586A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7950A101D9B5DE400C53B7C /* Build configuration list for PBXNativeTarget "SpeechSampleAppUITests" */;
 			buildPhases = (
+				C0BB2138692454B561C34DCC /* [CP] Check Pods Manifest.lock */,
 				C79509FD1D9B5DE400C53B7C /* Sources */,
 				C79509FE1D9B5DE400C53B7C /* Frameworks */,
 				C79509FF1D9B5DE400C53B7C /* Resources */,
+				3AB866BB74662BEF7206DF0F /* [CP] Copy Pods Resources */,
+				D5DF7FB979035449FEEF7F41 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +317,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3135C6C74501981BA75E3BFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3AB866BB74662BEF7206DF0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeechSampleAppUITests/Pods-SpeechSampleAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D446383AACF130BD86C13A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeechSampleApp/Pods-SpeechSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8898257740D972BE1A26A136 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeechSampleAppTests/Pods-SpeechSampleAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A048DC9229492E6918073EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeechSampleApp/Pods-SpeechSampleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DF2AA6369F0D14FAAB419AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0BB2138692454B561C34DCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5DF7FB979035449FEEF7F41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeechSampleAppUITests/Pods-SpeechSampleAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF8B413AF5EBF40914586A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeechSampleAppTests/Pods-SpeechSampleAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C79509DB1D9B5DE400C53B7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,7 +462,9 @@
 			files = (
 				C79509E51D9B5DE400C53B7C /* ViewController.swift in Sources */,
 				C79509E31D9B5DE400C53B7C /* AppDelegate.swift in Sources */,
+				C7DA17E51D9F390C005CB324 /* GifTableViewCell.swift in Sources */,
 				C79509EB1D9B5DE400C53B7C /* SpeechSampleApp.xcdatamodeld in Sources */,
+				C7DA17E71D9F41BC005CB324 /* VoiceSearchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +614,7 @@
 		};
 		C7950A0B1D9B5DE400C53B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A141DB7E7BEC4B6485F634AA /* Pods-SpeechSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SN2649LZ84;
@@ -424,12 +622,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iminlovewiththecocoa.SpeechSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/spotheromatt/learning/SpeechSampleApp/SpeechSampleApp/SpeechSampleApp-BridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		C7950A0C1D9B5DE400C53B7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 605D761D66EA512CCD7FA906 /* Pods-SpeechSampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SN2649LZ84;
@@ -437,12 +637,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iminlovewiththecocoa.SpeechSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/spotheromatt/learning/SpeechSampleApp/SpeechSampleApp/SpeechSampleApp-BridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		C7950A0E1D9B5DE400C53B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1F6881CE60E5AE991BCE30 /* Pods-SpeechSampleAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +660,7 @@
 		};
 		C7950A0F1D9B5DE400C53B7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A333FBD9031C331DC40EC282 /* Pods-SpeechSampleAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +676,7 @@
 		};
 		C7950A111D9B5DE400C53B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8273FBD7128170CD0EE8CC0D /* Pods-SpeechSampleAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = SN2649LZ84;
@@ -487,6 +691,7 @@
 		};
 		C7950A121D9B5DE400C53B7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72EA75624972DDF4D7992280 /* Pods-SpeechSampleAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = SN2649LZ84;
@@ -518,6 +723,7 @@
 				C7950A0C1D9B5DE400C53B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7950A0D1D9B5DE400C53B7C /* Build configuration list for PBXNativeTarget "SpeechSampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +732,7 @@
 				C7950A0F1D9B5DE400C53B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7950A101D9B5DE400C53B7C /* Build configuration list for PBXNativeTarget "SpeechSampleAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +741,7 @@
 				C7950A121D9B5DE400C53B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
