@@ -89,8 +89,8 @@ extension ViewController: UITableViewDataSource {
         
         let dict = dataSource[indexPath.row]
         let images = dict["images"] as! [String: AnyObject]
-        let original = images["original"] as! [String: AnyObject]
-        let urlString = original["url"] as! String
+        let imageDict = images["fixed_width_small"] as! [String: AnyObject]
+        let urlString = imageDict["url"] as! String
         let url = URL(string: urlString)!
         cell.gifImageView.animatedImage = nil
         URLSession.shared.dataTask(with: url) { (data, response, error) in
